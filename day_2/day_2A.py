@@ -23,6 +23,9 @@ def multiply(number_1, number_2):
 def get_opcode_output():
     opcode_output_list = read_opcodes_to_list()
     
+    opcode_output_list[1] = 12
+    opcode_output_list[2] = 2
+    
     current_opcode_position = 0
     while (current_opcode_position < len(opcode_output_list)):
         current_opcode_value = opcode_output_list[current_opcode_position]
