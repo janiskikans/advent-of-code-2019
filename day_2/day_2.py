@@ -1,3 +1,4 @@
+# Read opcodes from input file to list of ints
 def read_opcodes_to_list():
     opcode_list = []
     file = open('input.txt', 'r')    
@@ -10,15 +11,15 @@ def read_opcodes_to_list():
 
     return opcode_list
 
+# Add two numbers
 def add(number_1, number_2):
     return number_1 + number_2
 
+# Multiply to numbers
 def multiply(number_1, number_2):
     return number_1 * number_2
 
-def do_opcode_addition():
-    add
-
+# Get the resulting opcode list
 def get_opcode_output():
     opcode_output_list = read_opcodes_to_list()
     
